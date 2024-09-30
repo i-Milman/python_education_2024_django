@@ -1,0 +1,1 @@
+# python_education_2024_django
