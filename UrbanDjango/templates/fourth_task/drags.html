@@ -1,0 +1,9 @@
+{% extends "fourth_task/menu.html" %}
+{% block main %}
+    <section>
+        <h2>{{ products_head }}</h2>
+        {% for i in products %}
+        <p><button>{{ buy }}</button> {{ i }}</p>
+        {% endfor %}
+    </section>
+{% endblock %}

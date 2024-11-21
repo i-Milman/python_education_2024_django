@@ -1,0 +1,23 @@
+{% extends "fourth_task/menu.html" %}
+{% block main %}
+    <section>
+        <h2>{{ welcome_head }}</h2>
+        <p>{{ welcome }}</p>
+    </section>
+    <section>
+        <h2>{{ advantages_head }}</h2>
+        <ul>
+            {% for i in advantages %}
+            <li> {{ i }} </li>
+            {% endfor %}
+        </ul>
+    </section>
+    <section>
+        <h2>{{ partners_head }}</h2>
+        <ul>
+            {% for i in partners %}
+            <li>{{ i }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endblock %}
